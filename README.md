@@ -8,7 +8,7 @@ The Liverpool Museum of Natural History (LMNH) welcomes hundreds of thousands of
 
 ## The Solution 
 
-A cloud based data pipeline was developed for LMNH, the pipeline used a variety of technologies including Kafka, AWS EC2, AWS RDS Postgres and Tableau.
+A cloud based data pipeline was developed for LMNH, the pipeline used a variety of technologies including Kafka, AWS EC2, AWS RDS Postgresql and Tableau.
 
 Please find an architecture diagram of the pipeline below:
 ![Architecture Diagram](architecture-diagram.png)
