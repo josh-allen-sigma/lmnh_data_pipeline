@@ -13,6 +13,9 @@ A cloud based data pipeline was developed for LMNH, the pipeline used a variety 
 Please find an architecture diagram of the pipeline below:
 ![Architecture Diagram](architecture-diagram.png)
 
+Please find an erd diagram of the postgresql database below:
+![ERD Diagram](erd-diagram.png)
+
 ## File Explanation 
 
 ### .venv
@@ -55,6 +58,9 @@ CLI:
 
 It is not necessary to enter any cli arguments to run the script unless you want to modify one of the cli inputs as explained in CLI.
 
+### schema.sql
+This is Postgresql database schema script to create tables and insert static information into the database.
+
 ### Tableau Dashboard
 PNGs of the wireframe dashboard concepts and the actual Tableau dashboards can be found in the Dashboard directory.
 
@@ -70,5 +76,6 @@ To connect to the database run 'bash db_connect.bash'.
 ### ec2-connect.bash
 To connect to the ec2 instance run 'bash ec2_connect.bash'.
 
+### test_lmnh_etl.py
 Some very basic pytests were carried out to ensure transform functions were working as intended.
 
