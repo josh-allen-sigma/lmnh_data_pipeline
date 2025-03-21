@@ -58,7 +58,7 @@ CLI:
 
 It is not necessary to enter any cli arguments to run the script unless you want to modify one of the cli inputs as explained in CLI.
 
-### schema.sql
+### Schema.sql
 This is Postgresql database schema script to create tables and insert static information into the database.
 
 ### Tableau Dashboard
