@@ -73,5 +73,5 @@ To connect to the database run 'bash db_connect.bash'.
 ### ec2-connect.bash
 To connect to the ec2 instance run 'bash ec2_connect.bash'.
 
-### Some very basic pytests were carried out to ensure transform functions were working as intended.
+Some very basic pytests were carried out to ensure transform functions were working as intended.
 
