@@ -61,7 +61,7 @@ It is not necessary to enter any cli arguments to run the script unless you want
 This is Postgresql database schema script to create tables and insert static information into the database.
 
 ### Tableau Dashboard
-PNGs of the wireframe dashboard concepts and the actual Tableau dashboards can be found in the Dashboard directory.
+PNGs of the wireframe dashboard concepts and the actual Tableau dashboards can be found in the Dashboard directory, the dashboard was directly connected to the RDS datasource.
 
 ### Terraform Setup
 The terraform resources including security groups, an ec2 instance and an rds were set up using the main scripts in the ec2_terraform_config and rds_terraform_config files.
