@@ -1,7 +1,5 @@
 # LMNH Data Pipeline
 
-This folder should contain all code, documentation and resources required for the LMNH data pipeline.
-
 ## Project Context
 
 The Liverpool Museum of Natural History (LMNH) welcomes hundreds of thousands of visitors annually to its award-winning exhibitions. Committed to serving the community, LMNH collects visitor feedback to improve exhibitions. Traditionally using surveys and reviews, the museum is now trialing "Smiley Face Survey Kiosks" at key exhibitions, allowing visitors to rate their experience and request assistance. While the kiosks are operational, the data is not yet being utilized. LMNH aims to develop an automated system to collect, store, and analyze this data in real time for better operational insights.
