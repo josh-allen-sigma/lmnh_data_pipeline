@@ -4,13 +4,7 @@ This folder should contain all code, documentation and resources required for th
 
 ## Project Context
 
-The Liverpool Museum of Natural History (LMNH) hosts hundreds of thousands of visitors every year, coming to view award-winning exhibitions such as "Fossils of the Ancient Nile" and "Inordinately Fond: Biodiversity in Beetles".
-
-LMNH's core mission is 'to provide value to the Liverpool community and the wider public'. As part of this mission, the museum regularly collects data on visitor satisfaction and wellbeing, which is then used to target exhibition development and maintenance. In the past, the museum has collected this data through written surveys and online reviews, but LMNH has recently secured funding for a new project focused on gathering immediate user feedback. This project is currently being trialled in several key exhibitions.
-
-"Smiley Face Survey Kiosks" have been placed at the exits of the exhibitions; visitors are asked to rate their experience of the exhibition on a five-point scale (from 😡 to 😀). Each kiosk features two other buttons: an "assistance" button, for general enquiries, and an "emergency" button for immediate support.
-
-While the kiosks are currently operational, nothing is actually being done with the visitor data yet. LMNH wants to develop an automated pipeline that would combine, store, and analyse all the kiosk data automatically, allowing museum staff to access continually-updating information on the museum's operation.
+The Liverpool Museum of Natural History (LMNH) welcomes hundreds of thousands of visitors annually to its award-winning exhibitions. Committed to serving the community, LMNH collects visitor feedback to improve exhibitions. Traditionally using surveys and reviews, the museum is now trialling "Smiley Face Survey Kiosks" at key exhibitions, allowing visitors to rate their experience and request assistance. While the kiosks are operational, the data is not yet being utilized. LMNH aims to develop an automated system to collect, store, and analyze this data in real time for better operational insights.
 
 ## The Solution 
 
