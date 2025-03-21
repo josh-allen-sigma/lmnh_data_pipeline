@@ -4,7 +4,7 @@ This folder should contain all code, documentation and resources required for th
 
 ## Project Context
 
-The Liverpool Museum of Natural History (LMNH) welcomes hundreds of thousands of visitors annually to its award-winning exhibitions. Committed to serving the community, LMNH collects visitor feedback to improve exhibitions. Traditionally using surveys and reviews, the museum is now trialling "Smiley Face Survey Kiosks" at key exhibitions, allowing visitors to rate their experience and request assistance. While the kiosks are operational, the data is not yet being utilized. LMNH aims to develop an automated system to collect, store, and analyze this data in real time for better operational insights.
+The Liverpool Museum of Natural History (LMNH) welcomes hundreds of thousands of visitors annually to its award-winning exhibitions. Committed to serving the community, LMNH collects visitor feedback to improve exhibitions. Traditionally using surveys and reviews, the museum is now trialing "Smiley Face Survey Kiosks" at key exhibitions, allowing visitors to rate their experience and request assistance. While the kiosks are operational, the data is not yet being utilized. LMNH aims to develop an automated system to collect, store, and analyze this data in real time for better operational insights.
 
 ## The Solution 
 
@@ -14,6 +14,7 @@ Please find an architecture diagram of the pipeline below:
 ![Architecture Diagram](architecture-diagram.png)
 
 ## File Explanation 
+
 ### .venv
 It's a good idea to first create and activate a virtual environment, you can do this by running the following commands:
 - python3 -m venv .venv
@@ -54,6 +55,8 @@ CLI:
 
 It is not necessary to enter any cli arguments to run the script unless you want to modify one of the cli inputs as explained in CLI.
 
+### Tableau Dashboard
+PNGs of the wireframe dashboard concepts and the actual Tableau dashboards can be found in the Dashboard directory.
 
 ### Terraform Setup
 The terraform resources including security groups, an ec2 instance and an rds were set up using the main scripts in the ec2_terraform_config and rds_terraform_config files.
