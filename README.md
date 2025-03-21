@@ -12,19 +12,12 @@ LMNH's core mission is 'to provide value to the Liverpool community and the wide
 
 While the kiosks are currently operational, nothing is actually being done with the visitor data yet. LMNH wants to develop an automated pipeline that would combine, store, and analyse all the kiosk data automatically, allowing museum staff to access continually-updating information on the museum's operation.
 
-
-
-
-
 ## The Solution 
 
-
-
-
+A cloud based data pipeline was developed for LMNH, the pipeline used a variety of technologies including Kafka, AWS EC2, AWS RDS Postgres and Tableau.
 
 Please find an architecture diagram of the pipeline below:
 ![Architecture Diagram](architecture-diagram.png)
-
 
 ## File Explanation 
 ### .venv
@@ -37,7 +30,7 @@ Before running the script, in order to ensure all necessary packages are install
 - pip3 install -r requirements.txt
 
 ### .env
-You will have to create a .env file containing the following details (fill the blanks '=      '):
+An .env file containing the following details (fill the blanks '=      ') will need to be created:
 - For your target RDS:
 DATABASE_USERNAME=
 DATABASE_PASSWORD=
@@ -57,7 +50,6 @@ GROUP=
 aws_access_key_id=
 aws_secret_access_key=
 
-
 ### lmnh_etl.py file
 This etl script consumes messages from kafka, validates them and transforms them before loading them into a AWS RDS. This script also comes equipped with a command line interface:
 
@@ -66,20 +58,16 @@ CLI:
 - "-f", "--filename", default="errors.txt", help="Choose an output filename - default is errors.txt" - optional argument
 - "-l", "--log_destination", default="terminal", help="Choose to log errors to a 'file' or 'terminal'" - optional argument
 
-
-
 It is not necessary to enter any cli arguments to run the script unless you want to modify one of the cli inputs as explained in CLI.
-
-
 
 ### db_clear.bash
 To clear the database before running the lmnh_etl.py script run the db_clear.bash file using 'bash db_clear.bash' this will reset the database but keep the static information e.g exhibitions, floors, rating values etc.
 
 ### db_connect.bash
-To connect to your database run 'bash db_connect.bash'.
+To connect to the database run 'bash db_connect.bash'.
 
 ### ec2-connect.bash
-To connect to you ec2 instance run 'bash ec2_connect.bash'.
+To connect to the ec2 instance run 'bash ec2_connect.bash'.
 
 
 
