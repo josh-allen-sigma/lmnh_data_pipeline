@@ -27,6 +27,7 @@ Before running the script, in order to ensure all necessary packages are install
 
 ### .env
 An .env file containing the following details (fill the blanks '=      ') will need to be created:
+
 For your target RDS:
 - DATABASE_USERNAME=
 - DATABASE_PASSWORD=
